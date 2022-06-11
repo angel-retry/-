@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Animood-煩惱大聲說</title>
+  </head>
+  <body>
+    <div class="cover">
+      <div class="spinner-border text-white" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="bg">
+      <div class="line mt-5 mb-5"></div>
+        <div class="card text-center container-fluid card-bg " style="width:auto;height: auto;">
+            <div class="card-body ">
+              <h2 class="card-title mb-2 mt-3">煩惱大聲說</h2>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text">現在情緒為何?</p>
+              </div>
+              <div class="btn-group-toggle mt-1" data-toggle="buttons">
+                <label class="btn btn-secondary mr-2 ">
+                  <input type="radio"  id="feeling1" name="feeling" value="平靜"> 平靜
+                </label>
+                <label class="btn btn-secondary mr-2">
+                  <input type="radio" id="feeling2" name="feeling" value="不開心"> 不開心
+                </label>
+                <label class="btn btn-secondary mr-2">
+                  <input type="radio"  id="feeling3" name="feeling" value="難過"> 難過
+                </label>
+                <label class="btn btn-secondary mr-2">
+                  <input type="radio" id="feeling4" name="feeling" value="焦慮"> 焦慮
+                </label>
+              </div>
+              <p class="card-text mt-4 mb-1">寫下你的煩惱吧!</p>
+
+              <div class="input-group">
+                <textarea class="form-control" name="writing" id="writing" aria-label="With textarea" cols="30" rows="10" placeholder="有什麼事分享的呢?"></textarea>
+              </div>
+              <a href="./sure.html" class="btn mt-5 mb-3 btn-send">煩惱送出</a>
+            </div>
+            
+        </div>
+
+      <div class="line mt-5 mb-5"></div>
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

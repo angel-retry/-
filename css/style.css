@@ -1,0 +1,158 @@
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body {
+    background: #E8C8B2;
+}
+
+.card{
+    background-color: #F6DFCF;
+
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    color: #654D3C;
+}
+
+.card-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    z-index: 1;
+    color: #90735E;
+}
+
+.round {
+    width: 250px;
+    height: 250px;
+    border-radius: 999rem;
+    background-color: #F2D8C6;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+.btn-home {
+    width: 150px;
+    height: 50px;
+    background: #FCF2E3;
+    border-radius: 16px;
+    color: #90735E;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.btn-p {
+    font-size: 10px;
+    color: #90735E;
+}
+
+.line {
+    height: 8px;
+    background-image: url("../img/Vector.png");
+    background-repeat: repeat-x;
+}
+
+.btn-secondary {
+    width: auto;
+    height: 25px;
+    border-radius: 21px;
+    background-color: #FCF2E3;
+    color: #654D3C;
+    border: 0;
+
+}
+
+.btn-secondary:hover,
+.btn-secondary:active:hover{
+    color: #FCF2E3;
+    background-color:#654D3C
+}
+
+.active{
+  color: #FCF2E3;
+  background-color:#654D3C!important;
+}
+
+.form-control {
+    background-color: #FCF2E3;
+    color: #654D3C;
+}
+
+.btn-send {
+    width: 150px;
+    height: 50px;
+    background: #A38672;
+    border-radius: 16px;
+    color: #FCF2E3;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.btn-send:hover {
+    width: 150px;
+    height: 50px;
+    background: #A38672;
+    border-radius: 16px;
+    color: #FCF2E3;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.sure_mb {
+    margin-bottom: 80px;
+}
+
+.name-user {
+    width: 75px;
+    height: 30px;
+    background-color: #A38672;
+    border-radius: 50px;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    line-height: auto;
+    font-weight: bold;
+}
+
+.name-mood {
+    width: auto;
+    height: 25px;
+    background-color: #FCF2E3;
+    border-radius: 50px;
+    color: #A38672;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    line-height: auto;
+    font-weight: bold;
+}
+
+.cardtext-bg {
+    background-color: #FCF2E3;
+    color: #A38672;
+    font-weight: bold;
+}
+
+.cover{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    display: none;
+    place-items: center;
+}
+
+.col {
+    padding: 0;
+}
