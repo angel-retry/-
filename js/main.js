@@ -28,7 +28,7 @@ function sendToServer(){
             alert('送出失敗，請檢查後再試試看');
         }
     }).fail(function(data){
-        alert('送出失敗');
+
         console.log(data);
     });
 }
